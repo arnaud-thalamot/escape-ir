@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="gesture_color">#FFFFFF00</color>
+    <color name="behaviour_color">#FFFFFF00</color>
+    <color name="expandable_list_view_section_color">#44C8ED</color>
+    <color name="weapon_stock_color">#33CC00</color>
+    <color name="Gray">#808080</color>
+
+</resources>

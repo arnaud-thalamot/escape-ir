@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TableLayout>
+
+        <TextView
+            android:id="@+id/dialog_new_level_text_level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_level_dialog_text_level_name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/dialog_new_level_level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/new_level_dialog_hint_level_name"
+            android:inputType="text"
+            android:singleLine="true" />
+    </TableLayout>
+
+    <TableLayout>
+
+        <TextView
+            android:id="@+id/dialog_new_level_text_level_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_level_dialog_text_level_duration"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/dialog_new_level_level_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/new_level_dialog_hint_level_duration"
+            android:inputType="numberDecimal"
+            android:singleLine="true" />
+    </TableLayout>
+
+    <TableLayout>
+
+        <TextView
+            android:id="@+id/dialog_new_level_text_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/new_level_dialog_text_spinner"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/dialog_new_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableLayout>
+
+    <TableLayout>
+
+        <TextView
+            android:id="@+id/dialog_new_level_text_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/new_level_dialog_text_background"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/dialog_new_level_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/dialog_new_level_radiobutton_fromdisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/new_level_dialog_text_radiobutton_fromdisk"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/dialog_new_level_radiobutton_fromlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/new_level_dialog_text_radiobutton_fromlink"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </TableLayout>
+
+    <TableLayout>
+
+        <ImageView
+            android:id="@+id/dialog_new_level_imagepreview_fromdisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+    </TableLayout>
+
+</TableLayout>

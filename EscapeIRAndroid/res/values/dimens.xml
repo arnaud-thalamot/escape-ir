@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name="behaviour_icon">8dip</dimen>
+    <dimen name="behaviour_icon_size">64dip</dimen>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editor_relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:id="@+id/editor_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="45"
+            android:background="@drawable/pageleveleditor"
+            >
+        </FrameLayout>
+
+        <ExpandableListView
+            android:id="@+id/expandable_list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="55"
+            android:background="@drawable/menudroit"
+            android:childDivider="@drawable/divider_child"
+            android:divider="@drawable/divider" >
+        </ExpandableListView>
+    </LinearLayout>
+
+</RelativeLayout>

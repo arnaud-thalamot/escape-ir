@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">EscapeIR2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_description">Title</string>
+    <string name="missile_string">Missile</string>
+    <string name="fireball_string">Fireball</string>
+    <string name="shiboleet_string">Shiboleet</string>
+    <string name="triforce_string">TriForce</string>
+    <string name="score_string">Score : </string>
+    <string name="life_string">Life : </string>
+
+     <string name="expandable_list_view_font">fonts/editor_font.ttf</string>
+    
+     <string name="vertical_scroll_view_bundle_tag_saved_scrollY_position">scrollPosition</string>
+     
+     <string name="map_editor_toast_selected">Enemy Selected</string>
+     <string name="map_editor_toast_deleted">Enemy Deleted</string>
+     
+    <string name="welcome_dialog_title">Welcome to Escape IR Level Editor</string>
+    <string name="welcome_dialog_edit_level_button_label">Edit an existing level</string>
+    <string name="welcome_dialog_new_level_button_label">Create a new level</string>
+    <string name="welcome_dialog_download_level_button_label">Download a level</string>
+    <string name="welcome_dialog_delete_level_button_label">Delete a level</string>
+    <string name="edit_level_dialog_title">Edit a level</string>
+    <string name="edit_level_dialog_text_spinner">Available levels : </string>
+    <string name="delete_level_dialog_title">Delete a level</string>
+    <string name="spinner_default_text">Level</string>
+    <string name="new_level_dialog_title">Create a new level</string>
+    <string name="new_level_dialog_text_level_name">Level Name : </string>
+    <string name="new_level_dialog_hint_level_name">level\'s name</string>
+    <string name="new_level_dialog_text_level_duration">Level Duration : </string>
+    <string name="new_level_dialog_hint_level_duration">level\'s duration in seconds</string>
+    <string name="new_level_dialog_text_spinner">Create from existing level : </string>
+    <string name="new_level_dialog_text_background">Background : </string>
+    <string name="new_level_dialog_text_radiobutton_fromdisk">From disk </string>
+    <string name="new_level_dialog_text_radiobutton_fromlevels">From Levels</string>
+    <string name="new_level_dialog_text_radiobutton_fromlink">From Link</string>
+    
+    <string name="retrieve_level_fromlink_dialog_not_loaded">You must load the file before continuing !</string>
+    <string name="retrieve_level_fromlink_dialog_load_button">Load level the level</string>
+    <string name="retrieve_level_fromlink_dialog_title">Load level \(ZIP\) from link</string>
+    <string name="retrieve_level_fromlink_dialog_text_link">Enter the link of your level : </string>
+    <string name="retrieve_level_fromlink_dialog_hint_link">ex:http://www.mydomain.com/mylevel.zip</string>
+    <string name="retrieve_image_fromlink_dialog_text_link">Enter the link of your image : </string>
+    <string name="retrieve_image_fromlink_dialog_hint_link">ex:http://www.mydomain.com/myimage.png</string>
+    <string name="retrieve_image_fromlink_dialog_load_button">Preview the image</string>
+    <string name="retrieve_image_fromlink_dialog_text_preview">Preview of your image : </string>
+    <string name="level_sequence_text">Current Level Sequence : </string>
+    <string name="level_sequence_text_current_selection">Selected Level : </string>
+    <string name="level_sequence_text_current_selection_hint">name of the selecte level</string>
+    <string name="level_sequence_text_current_selection_position">Selected Level Position: </string>
+    <string name="level_sequence_text_current_selection_position_hint">position of the selected level</string>
+    <string name="add_enemy_type_text_image">Choose the sprite : </string>
+    <string name="add_enemy_type_text_hp">Health Points : </string>
+    <string name="add_enemy_type_text_hint">put a round number</string>
+    <string name="add_enemy_type_text_rythm">Rhythm of firing : </string>
+    <string name="add_enemy_type_text_behaviour">Choose the Behaviour : </string>
+    <string name="add_enemy_type_text_missile">Stock of Missiles : </string>
+    <string name="add_enemy_type_text_fireballs">Stock of Fireballs : </string>
+    <string name="add_enemy_type_text_shiboleet">Stock of Shiboleet : </string>
+    <string name="add_enemy_type_text_triforce">Stock of TriForce : </string>
+    <string name="cancel_action">Cancel</string>
+    <string name="ok_action">Load the level</string>
+    <string name="ok_action_new_level">Create the level</string>
+    <string name="ok_action_delete_level">Delete level</string>
+    <string name="ok_action_choose_image">Choose this image</string>
+    <string name="ok_action_choose_level">Load from this link</string>
+	<string name="rename_action">OK</string>
+    
+    <string name="prompt_behaviour_name">Name</string>
+    <string name="add_ennemy_type_name">Ennemy Type Name : </string>
+
+    <string name="error_missing_name">You must enter a name</string>
+    <string name="error_missing_hp">You must enter a value for Health Points</string>
+    <string name="error_missing_rythm">You must a value for Rhythym of Firing</string>
+    <string name="error_missing_missile">You must a value for Missile</string>
+    <string name="error_missing_fireballs">You must a value for Fireballs</string>
+    <string name="error_missing_shiboleet">You must a value for Shiboleet</string>
+    <string name="error_missing_triforce">You must a value for Triforce</string>
+    
+    <string name="error_missing_duration">You must enter a duration</string>
+    <string name="error_missing_duration_too_high">You entered a too high duration : max value 3600</string>
+    <string name="error_missing_duration_too_low">You entered a too low duration : min value 30</string>
+    <string name="error_loading_file">Unable to read in the given zip file</string>
+    <string name="error_file_not_found">Given template level not found</string>
+    <string name="error_parser">Unable to parse the XML in the level</string>
+    <string name="error_missing_background">You didn\'t choose a background ! </string>
+
+    <string name="behaviour_loading">Loading behaviour</string>
+    <string name="behaviour_empty">No behaviour founded</string>
+
+    <string name="item_rename">Rename</string>
+    <string name="item_delete">Delete</string>
+    <string name="item_delete_success">Item deleted</string>
+    <string name="item_rename_title">Rename item</string>
+    <string name="item_rename_label">Item name</string>
+     <string name="image_content_description">image</string>
+     
+     <string name="succes_save_level">Congratulations you can now play with your game !</string>
+     <string name="failure_save_level">Unfortunately we can\'t save your game in this state, one or several attributes are empty</string>
+      <string name="no_behaviour_drawn">You must draw a gesture before saving it</string>
+    
+    <!-- Message displayed when the user opens the enemy settings screen -->
+    <string name="enemy_empty">No enemies</string>
+    <string name="enemy_rename">Rename</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="enemy_delete">Delete</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="enemy_delete_success">Enemy deleted</string>
+
+    <!-- Title of dialog box -->
+    <string name="enemy_rename_title">Rename enemy</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="enemy_rename_label">Enemy name</string>
+
+</resources>

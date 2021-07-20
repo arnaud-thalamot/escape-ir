@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/triforce_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:onClick="onClick"
+        android:textColor="@color/weapon_stock_color"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/shiboleet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/triforce_button"
+        android:onClick="onClick"
+        android:textColor="@color/weapon_stock_color"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/fireball_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/shiboleet_button"
+        android:onClick="onClick"
+        android:textColor="@color/weapon_stock_color"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/missile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/fireball_button"
+        android:onClick="onClick"
+        android:textColor="@color/weapon_stock_color"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/life"
+        style="@style/CustomProgressBarHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@+id/missile_button" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_toRightOf="@+id/chronometer"
+        android:gravity="center_horizontal"
+        android:text="@string/score_string"
+        android:textColor="@android:color/white" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="3dp"
+        android:format="Time : %s"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

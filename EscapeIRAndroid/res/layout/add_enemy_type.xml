@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/add_ennemy_type_name_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_ennemy_type_name"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/dialog_new_level_level_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/new_level_dialog_hint_level_name"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/add_enemy_type_text_image"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/dialog_new_level_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp" >
+
+            <RadioButton
+                android:id="@+id/dialog_new_level_radiobutton_fromdisk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/new_level_dialog_text_radiobutton_fromdisk"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/dialog_new_level_radiobutton_fromlink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/new_level_dialog_text_radiobutton_fromlink"
+                android:textSize="20sp" />
+        </RadioGroup>
+    </TableRow>
+    
+        <ImageView
+            android:id="@+id/dialog_new_level_imagepreview_fromdisk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_content_description"
+            android:layout_marginTop="20dp" />
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_hp"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text|number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_rhythm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_rythm"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_rhythm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text|number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_behaviour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_behaviour"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/add_ennemy_type_behaviour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/add_ennemy_type_missile_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/missille_button"
+            android:contentDescription="@string/image_content_description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_missile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_missile"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_missile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text|number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/add_ennemy_type_fireball_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fireball_button"
+            android:contentDescription="@string/image_content_description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_fireball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_fireballs"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_fireball"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/add_ennemy_type_shiboleet_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shiboleet_button"
+            android:contentDescription="@string/image_content_description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_shiboleet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_shiboleet"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_shiboleet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text|number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/add_ennemy_type_triforce_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/triforce_button"
+            android:contentDescription="@string/image_content_description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/add_ennemy_type_text_triforce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_enemy_type_text_triforce"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/add_ennemy_type_triforce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_enemy_type_text_hint"
+            android:inputType="text|number"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </TableRow>
+
+</TableLayout>
